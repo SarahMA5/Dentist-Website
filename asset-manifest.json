@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Dentist-Website/static/css/main.d1b05096.chunk.css",
-    "main.js": "/Dentist-Website/static/js/main.474c89f9.chunk.js",
-    "main.js.map": "/Dentist-Website/static/js/main.474c89f9.chunk.js.map",
+    "main.js": "/Dentist-Website/static/js/main.413a1c06.chunk.js",
+    "main.js.map": "/Dentist-Website/static/js/main.413a1c06.chunk.js.map",
     "runtime-main.js": "/Dentist-Website/static/js/runtime-main.60bb8907.js",
     "runtime-main.js.map": "/Dentist-Website/static/js/runtime-main.60bb8907.js.map",
     "static/js/2.7ce16401.chunk.js": "/Dentist-Website/static/js/2.7ce16401.chunk.js",
     "static/js/2.7ce16401.chunk.js.map": "/Dentist-Website/static/js/2.7ce16401.chunk.js.map",
     "index.html": "/Dentist-Website/index.html",
-    "precache-manifest.c661ce7e9a55d33a3a5c6a3fd7319ce5.js": "/Dentist-Website/precache-manifest.c661ce7e9a55d33a3a5c6a3fd7319ce5.js",
+    "precache-manifest.d11a234de29544c8903c65a6b1ed5126.js": "/Dentist-Website/precache-manifest.d11a234de29544c8903c65a6b1ed5126.js",
     "service-worker.js": "/Dentist-Website/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/Dentist-Website/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.7ce16401.chunk.js.LICENSE": "/Dentist-Website/static/js/2.7ce16401.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.60bb8907.js",
     "static/js/2.7ce16401.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.474c89f9.chunk.js"
+    "static/js/main.413a1c06.chunk.js"
   ]
 }
