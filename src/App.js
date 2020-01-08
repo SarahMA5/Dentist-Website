@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Home from './Home'
+import Procedures from './Procedures'
+import Contact from './Contact'
+
+
+const proceduresArray = [
+  'General Checkups',
+  'Teeth Cleaning',
+  'Cavity Screenings',
+  'Cavity Fillings',
+  'Chipped Tooth Fixings',
+  'Tooth Removal',
+  'Root Canals']
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+      <nav>
+        <Link to="/">Home</Link>{" "}
+        <Link to="/procedures">Procedures</Link>{" "}
+        <Link to="/contact">Contact</Link>
+      </nav>
+
+      <div>
+        <Route exact path="/" component={Home}></Route>
+  <Route path="/procedures" component={()=><Procedures procedures={proceduresArray}/>}></Route>
+        <Route path="/contact" component={Contact}></Route>
+
+      </div>
+    </Router>
   );
 }
 
